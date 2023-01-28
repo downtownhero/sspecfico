@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style_playlist.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Playlists</title>
+</head>
+<body>
+    <main id="profile-page">
+        <!--Home Page Coding Start-->
+        <aside id="left">
+            <div id="close" style="display: none;">x</div>
+            <img src="images/logo.png" id="logo-profile" alt="">
+            <div id="profile-info">
+                <div id="profile-img-section"><div id="status"></div></div>
+                <div id="user">
+                    <h1 id="user-name"></h1>
+                    <p id="email-id"></p>
+                </div>
+            </div>
+            <ul>
+                <li><span class="material-icons" style="width:20px;height:20px;">home</span><a href="profile.html">Home</a></li>
+                <li><span class="material-icons" style="width:20px;height:20px;">contacts</span><a href="contacts.html">Contacts</a></li>
+                <li><span class="material-icons" style="width:20px;height:20px;">speaker_notes</span><a href="notes.html">Notes</a></li>
+                <li><span class="material-icons" style="width:20px;height:20px;">business</span><a href="business.html">Business</a></li>
+                <li><span class="material-icons" style="width:20px;height:20px;color: black;">playlist_play</span><a href="playlist.html" style="color: black;">Playlists</a></li>
+                <li><span class="material-icons" style="width:20px;height:20px;">settings</span><a href="settings.html">Settings</a></li>
+                <li><span class="material-icons"  style="width:20px;height:20px;">logout</span><a onclick="logout()" href="#">LogOut</a></li>
+            </ul>
+        </aside>
+        <aside id="right">
+            <ul>
+                <div id="menu-bar" style="display: none;">
+                    <div id="bar"></div>
+                    <div id="bar"></div>
+                    <div id="bar"></div>
+                </div>
+                <li><span class="material-icons" id="nortification" style="width:20px;height:20px;transform: translate(50px,5px);">search</span><input type="search" placeholder="Search" ></li>
+                <li><span class="material-icons" id="nortification" style="width:20px;height:20px; color: #000000;">notifications</span></li>
+                <li><img src="images/emote.png" alt=""></li>
+            </ul>
+            <h1>Musico</h1>
+            <section id="playlist">
+                <div id="player">
+                    <div id="custom-player">
+                        <video id="video" poster="images/thumbnail.jpg"  width="100%" oncontextmenu="return false"> 
+                            <source src="images/1.mp4" id="video_src">
+                            <!-- https://www.appsloveworld.com/wp-content/uploads/2018/10/sample-mp4-video.mp4 -->
+                        </video>
+                        <div id="controls">
+                            <div id="play-track">
+                                <div id="buffred-progress"></div>
+                                <div id="play-bar"></div>
+                            </div>
+                            <div id="buttons">
+                                <div id="left-btn">
+                                    <div id="sec-left">
+                                        <button id="play-pause"></button>
+                                        <button id="skip-next"></button>
+                                        <button id="volume-up"><input type="range" min="0" max="1" step="0.1" id="volume-slider" style="display:none"></button>
+                                        <p id="time">0.00/0.00</p>
+                                    </div>
+                                    <section id="sec-right">
+                                        <button id="autoplay"></button>
+                                        <button id="settings"></button>
+                                        <button id="download"></button>
+                                        <button id="miniplayer"></button>
+                                        <button id="full-screen"></button>
+                                    </section>
+                                </div>
+                                <div id="settings-options">
+                                    <ul>
+                                        <li>Annotations <img src="images/annotations.svg" alt=""></li>
+                                        <li>Playback Speed <p id="show-speed">1</p></li>
+                                        <input type="range" min="0.25" max="2" step="0.25" style="width: 100%;" value="1" id="speed-slider">
+                                        <li id="reset-speed">Reset</li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="miniplayer-play">
+                        <span class="material-icons" id="miniplayer_close">close</span>
+                        <video id="minivideo">
+                            <source src="images/1.mp4" id="minivideo-source"></source>
+                        </video>
+                    </div>
+                    <div id="name">
+                        <h1>Phir Kabhi</h1>
+                        <p>oct 20 2021</p>
+                        <div id="like-dislike-share">
+                            <img src="images/liked.svg" alt="">
+                            <img src="images/dislike.svg" alt="">
+                            <h3> <img src="images/share.svg" alt=""> SHARE </h3>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div id="playlist-list">
+                    <div id="playlist-list-add">
+                        <h1>My Playlist</h1>
+                        <input type="file" accept="video/*" id="upload-video" style="position: absolute; opacity: 0;cursor: pointer;">
+                        <img src="images/playlist_add.svg" alt="" style="margin-right: 10px;">
+                    </div>  
+                    <h4 id="heading"><p>#</p> <p>Name</p></h4>
+                    <h5><p>01</p> <p>Mast Magan</p></h5>
+                    <h5><p><img src="images/volume1.svg" alt=""></p> <p>Phir Kabhi</p></h5>
+                    <h5><p>03</p> <p>Arziyaan</p></h5>
+                    <h5><p>04</p> <p>Dhoonde Akhiyaan</p></h5>
+                    <h5><p>05</p> <p>Mein Hoon Sath Tere</p></h5>
+                    <h5><p>07</p> <p>Kabira-Naina</p></h5>
+                    <h5><p>08</p> <p>Matargashti</p></h5>
+                    <h5><p>09</p> <p>Befikra</p></h5>
+                    <h5><p>10</p> <p>Humraah</p></h5>
+                </div>
+            </section>
+        </aside>
+    </main>
+    <script src="js/script_profile.js"></script>
+    <script src="js/style_playlist.js"></script>
+</body>
+</html>

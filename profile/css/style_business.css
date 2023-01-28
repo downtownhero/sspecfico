@@ -1,0 +1,1643 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+body {
+  width: 100%;
+}
+
+main {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main #left {
+  width: 300px;
+  min-height: 100vh;
+  border-right: 2px solid #F5F5F5;
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main #left #logo-profile {
+  width: 129px;
+  padding: 20px 0 35px 0;
+}
+
+main #left #profile-info {
+  width: 100%;
+  background: #FAFAFC;
+  border-radius: 15px;
+  padding: 15px 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+}
+
+main #left #profile-info #profile-img-section {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+main #left #profile-info #profile-img-section #status {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #3AC48E;
+  border: 1px solid white;
+  -webkit-transform: translate(28px, 30px);
+          transform: translate(28px, 30px);
+}
+
+main #left #profile-info #user {
+  padding-left: 16px;
+  overflow: hidden;
+}
+
+main #left #profile-info #user #user-name {
+  overflow: hidden;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+}
+
+main #left #profile-info #user #email-id {
+  overflow: hidden;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  color: #BCBCBC;
+}
+
+main #left ul {
+  list-style: none;
+  width: 100%;
+  -ms-flex-item-align: left;
+      -ms-grid-row-align: left;
+      align-self: left;
+  padding: 35px 10px 10px 10px;
+}
+
+main #left ul li {
+  color: #C4C4C4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 33px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+main #left ul li a {
+  text-decoration: none;
+  color: #C4C4C4;
+  padding-left: 18px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+main #left ul li:hover, main #left ul a:hover {
+  color: black;
+}
+
+main #right {
+  width: 100%;
+  padding: 35px 35px 0 35px;
+  overflow-x: hidden;
+  position: relative;
+}
+
+main #right ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main #right ul li input {
+  width: 60vw;
+  padding: 10px 100px;
+  font-size: 18px;
+  background: #FAFAFC;
+  border-radius: 10px;
+  border: none;
+}
+
+main #right h1 {
+  padding: 44px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+main #right #new-business {
+  width: 100%;
+  position: relative;
+  z-index: 99;
+  height: 513px;
+  padding: 0px 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main #right #new-business #progressbar {
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+main #right #new-business #progressbar ul {
+  width: 100%;
+  background-color: #F5F5F5;
+  border-radius: 20px;
+}
+
+main #right #new-business #progressbar ul li {
+  width: 33%;
+  text-align: center;
+  padding: 10px 0px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+main #right #new-business #progressbar ul #company {
+  background-color: #323232;
+  color: white;
+}
+
+main #right #new-business #form-background {
+  width: 100%;
+  height: 600px;
+  background: url(../images/form-background.svg) no-repeat center center;
+  background-size: cover;
+  border-radius: 20px;
+  padding: 20px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+}
+
+main #right #new-business #form-background #forms {
+  width: 54%;
+  min-height: 410px;
+  position: relative;
+}
+
+main #right #new-business #form-background #forms #company-form {
+  width: 100%;
+  min-height: 410px;
+  background-color: #F5F5F5;
+  border-radius: 20px;
+  padding: 46px 70px;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+main #right #new-business #form-background #forms #address-form {
+  width: 100%;
+  height: 410px;
+  background-color: #F5F5F5;
+  border-radius: 20px;
+  padding: 46px 70px;
+  position: absolute;
+  bottom: -500px;
+}
+
+main #right #new-business #form-background #forms #details-form {
+  width: 100%;
+  height: 410px;
+  background-color: #F5F5F5;
+  border-radius: 20px;
+  padding: 46px 70px;
+  position: absolute;
+  bottom: -500px;
+}
+
+main #right #new-business #form-background #forms #details-form input[type=text] {
+  width: 45%;
+  margin-right: 10px;
+  padding: 4px 0px;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  border-bottom: 2px solid #000000;
+  font-size: 25px;
+  margin-bottom: 60px;
+  font-weight: 600;
+}
+
+main #right #new-business #form-background #forms #details-form input[type=text]::nth-child(1) {
+  float: left;
+}
+
+main #right #new-business #form-background #forms #details-form input[type=text]::nth-child(2) {
+  float: right;
+}
+
+main #right #new-business #form-background #forms input[type=date] {
+  width: 45%;
+  margin-right: 10px;
+  padding: 4px 0px;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  border-bottom: 2px solid #000000;
+  font-size: 18px;
+  margin-bottom: 40px;
+  font-weight: 600;
+}
+
+main #right #new-business #form-background #forms select {
+  width: 48%;
+  margin-right: 10px;
+  padding: 4px 0px;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  border-bottom: 2px solid #000000;
+  font-size: 18px;
+  margin-bottom: 40px;
+  font-weight: 600;
+  border-radius: 0px;
+  outline: none;
+}
+
+main #right #new-business #form-background #forms select option {
+  width: 100%;
+  background-color: #000000;
+  color: white;
+  border-bottom: none;
+}
+
+main #right #new-business #form-background #forms h2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  padding-bottom: 73px;
+}
+
+main #right #new-business #form-background #forms input[type=text] {
+  width: 100%;
+  padding: 4px 0px;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  border-bottom: 2px solid #000000;
+  font-size: 25px;
+  margin-bottom: 60px;
+  font-weight: 600;
+}
+
+main #right #new-business #form-background #forms input[type=button] {
+  width: 140px;
+  padding: 11px 52px;
+  float: right;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  background-color: #323232;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+main #right #new-business #form-background #forms input[type=button]:hover {
+  background-color: black;
+}
+
+main #right #new-business #form-background #forms #back {
+  float: left;
+  background-color: #b8b8b8;
+  color: black;
+}
+
+main #right #new-business #form-background #forms #back:hover {
+  background-color: #8d8d8d;
+}
+
+main #right #new-business #form-background #forms #back2 {
+  float: left;
+  background-color: #b8b8b8;
+  color: black;
+}
+
+main #right #new-business #form-background #forms #back2:hover {
+  background-color: #8d8d8d;
+}
+
+main #right #new-business #form-background #forms p {
+  font-size: 12px;
+}
+
+main #right #new-business #form-background #business-img {
+  width: 100%;
+  position: absolute;
+  -webkit-transform: translate(68%, -1%);
+          transform: translate(68%, -1%);
+}
+
+main #right #account-only {
+  width: 100%;
+  background: #F1F1F1;
+  height: 700px;
+  position: absolute;
+  overflow: hidden;
+  left: 0px;
+  padding: 40px 80px 40px 40px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 313px 158px auto;
+      grid-template-columns: 313px 158px auto;
+  -ms-grid-rows: (1fr)[12];
+      grid-template-rows: repeat(12, 1fr);
+  grid-gap: 30px;
+  display: none;
+}
+
+main #right #account-only #card, main #right #account-only #clock, main #right #account-only #invoice, main #right #account-only #add-invoice, main #right #account-only #tax {
+  background-color: white;
+  border-radius: 10px;
+  position: relative;
+}
+
+main #right #account-only #card {
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  grid-row-end: 5;
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  background: url(../images/card.svg) center center no-repeat;
+  width: 100%;
+  background-size: contain;
+}
+
+main #right #account-only #card p {
+  color: white;
+  position: absolute;
+  bottom: 15px;
+  left: 35px;
+  font-family: 'Montserrat';
+  font-size: 25px;
+  font-weight: 500;
+}
+
+main #right #account-only #clock {
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  grid-row-end: 5;
+  background-color: #F9B80A;
+  padding: 15px 11px;
+}
+
+main #right #account-only #clock pre {
+  font-family: 'Montserrat';
+}
+
+main #right #account-only #clock #day {
+  width: 100%;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  letter-spacing: 0.085em;
+  -webkit-transform: rotate(-90deg) translate(-100%);
+          transform: rotate(-90deg) translate(-100%);
+  position: absolute;
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
+  text-align: center;
+}
+
+main #right #account-only #clock #time {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  letter-spacing: 0.085em;
+  color: #FFFFFF;
+  position: absolute;
+  right: 0;
+  padding: 6px 33px 10px 20px;
+  text-align: center;
+}
+
+main #right #account-only #clock #clock-date {
+  width: 91px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  letter-spacing: 0.085em;
+  color: #FFFFFF;
+  position: absolute;
+  right: 0;
+  padding: 61px 80px 0px 25px;
+  text-align: center;
+}
+
+main #right #account-only #clock #Month {
+  width: 91px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  letter-spacing: 0.085em;
+  color: #FFFFFF;
+  position: absolute;
+  right: 20px;
+  top: 100px;
+  text-align: center;
+}
+
+main #right #account-only #clock #Year {
+  width: 91px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  letter-spacing: 0.085em;
+  color: #FFFFFF;
+  position: absolute;
+  right: 25px;
+  top: 125px;
+  text-align: center;
+}
+
+main #right #account-only #invoice {
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  grid-row-end: 9;
+  padding: 23px 31px;
+  overflow-y: scroll;
+}
+
+main #right #account-only #invoice h3 {
+  width: 100%;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 19px;
+}
+
+main #right #account-only #invoice table {
+  width: 100%;
+  margin-top: 16px;
+  border-spacing: 0px 12px;
+  height: 100px;
+  overflow-y: scroll;
+}
+
+main #right #account-only #invoice table thead {
+  width: 100%;
+}
+
+main #right #account-only #invoice table thead tr {
+  width: 100%;
+}
+
+main #right #account-only #invoice table thead tr th {
+  width: 16.66%;
+  text-align: center;
+  color: white;
+  padding: 7px 20px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  background-color: #000000;
+}
+
+main #right #account-only #invoice table thead tr th:first-child {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+main #right #account-only #invoice table thead tr th:last-child {
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+main #right #account-only #invoice table tbody {
+  width: 100%;
+}
+
+main #right #account-only #invoice table tbody tr {
+  width: 100%;
+  background-color: #F1F1F1;
+  cursor: pointer;
+}
+
+main #right #account-only #invoice table tbody tr td {
+  text-align: center;
+  padding: 7px 10px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  width: 16.66%;
+  font-size: 12px;
+}
+
+main #right #account-only #invoice table tbody tr td:first-child {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+main #right #account-only #invoice table tbody tr td:last-child {
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+main #right #account-only #invoice::-webkit-scrollbar {
+  width: 2px;
+}
+
+main #right #account-only #invoice::-webkit-scrollbar-track {
+  width: 2px;
+  background-color: transparent;
+}
+
+main #right #account-only #invoice::-webkit-scrollbar-thumb {
+  width: 2px;
+  background-color: grey;
+}
+
+main #right #account-only #tax {
+  -ms-grid-row: 9;
+      grid-row-start: 9;
+  grid-row-end: 13;
+  padding: 23px 31px;
+  overflow-y: scroll;
+}
+
+main #right #account-only #tax h3 {
+  width: 100%;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 19px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main #right #account-only #tax h3 #add-tax-btn {
+  padding: 3px 15px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+main #right #account-only #tax table {
+  width: 100%;
+  margin-top: 16px;
+  border-spacing: 0px 12px;
+  height: 100px;
+  overflow-y: scroll;
+}
+
+main #right #account-only #tax table thead {
+  width: 100%;
+}
+
+main #right #account-only #tax table thead tr {
+  width: 100%;
+}
+
+main #right #account-only #tax table thead tr th {
+  width: 16.66%;
+  text-align: center;
+  color: white;
+  padding: 7px 20px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  background-color: #000000;
+}
+
+main #right #account-only #tax table thead tr th:first-child {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+main #right #account-only #tax table thead tr th:last-child {
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+main #right #account-only #tax table tbody {
+  width: 100%;
+}
+
+main #right #account-only #tax table tbody tr {
+  width: 100%;
+  background-color: #F1F1F1;
+}
+
+main #right #account-only #tax table tbody tr td {
+  height: 30px;
+  text-align: center;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  width: 16.66%;
+  font-size: 12px;
+}
+
+main #right #account-only #tax table tbody tr td img {
+  cursor: pointer;
+}
+
+main #right #account-only #tax table tbody tr td:first-child {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+main #right #account-only #tax table tbody tr td:last-child {
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+main #right #account-only #tax::-webkit-scrollbar {
+  width: 2px;
+}
+
+main #right #account-only #tax::-webkit-scrollbar-track {
+  width: 2px;
+  background-color: transparent;
+}
+
+main #right #account-only #tax::-webkit-scrollbar-thumb {
+  width: 2px;
+  background-color: grey;
+}
+
+#add-invoice {
+  -ms-grid-row: 5;
+      grid-row-start: 5;
+  grid-row-end: 13;
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 3;
+  padding: 23px 31px;
+}
+
+#add-invoice #invoice-heading {
+  width: 100%;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 19px;
+}
+
+#add-invoice #cstmr-info {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#add-invoice #cstmr-name, #add-invoice #cstmr-num, #add-invoice #cstmr-email, #add-invoice #cstmr-date {
+  width: 208px;
+  padding: 7px 25px;
+  margin-bottom: 13px;
+  background: #F1F1F1;
+  border-radius: 10px;
+  border: none;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  text-align: center;
+  outline: none;
+}
+
+#add-invoice #table-scroll {
+  overflow: scroll;
+  overflow-x: hidden;
+  border-bottom: 4px solid #000000;
+  height: 130px;
+}
+
+#add-invoice #table-scroll::-webkit-scrollbar {
+  width: 2px;
+}
+
+#add-invoice #table-scroll::-webkit-scrollbar-track {
+  width: 2px;
+  background-color: transparent;
+}
+
+#add-invoice #table-scroll::-webkit-scrollbar-thumb {
+  width: 2px;
+  background-color: grey;
+}
+
+#add-invoice table {
+  width: 100%;
+  margin-top: 16px;
+  border-spacing: 0;
+  height: 100px;
+  overflow-y: scroll;
+}
+
+#add-invoice table thead {
+  width: 100%;
+}
+
+#add-invoice table thead tr {
+  width: 100%;
+}
+
+#add-invoice table thead tr th {
+  width: 16.66%;
+  text-align: center;
+  color: white;
+  padding: 7px 20px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  background-color: #000000;
+}
+
+#add-invoice table thead tr th:first-child {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+#add-invoice table thead tr th:last-child {
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#add-invoice table tbody {
+  width: 100%;
+}
+
+#add-invoice table tbody tr {
+  width: 100%;
+}
+
+#add-invoice table tbody tr td {
+  width: 16.66%;
+  height: 30px;
+  text-align: center;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-size: 12px;
+  padding: 2px;
+}
+
+#add-invoice table tbody tr td input {
+  width: 100%;
+  outline: none;
+  border: 1px dashed grey;
+  font-family: 'Montserrat';
+  padding: 2px;
+  font-size: 12px;
+}
+
+#add-invoice #add-invoice-btn {
+  padding: 3px 15px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  -webkit-transform: translateY(-17px);
+          transform: translateY(-17px);
+  cursor: pointer;
+  position: absolute;
+  z-index: 100;
+}
+
+#add-invoice #invoice-add-button {
+  padding-top: 60px;
+}
+
+#add-invoice #invoice-add-button #print {
+  margin-right: 28px;
+  padding: 8px 18px;
+  border: none;
+  background: #F9B80A;
+  color: white;
+  position: relative;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+#add-invoice #invoice-add-button #save {
+  margin-right: 28px;
+  padding: 8px 18px;
+  border: none;
+  background: black;
+  position: relative;
+  color: white;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+#add-invoice #calculation {
+  width: 100%;
+  position: absolute;
+  right: 20px;
+  bottom: 0;
+  padding-right: 10px;
+  margin: 10px;
+  height: 105px;
+  overflow-y: scroll;
+}
+
+#add-invoice #calculation table {
+  border-spacing: 0;
+}
+
+#add-invoice #calculation th {
+  text-align: right;
+  font-family: 'Montserrat';
+  font-size: 12px;
+  padding-right: 1px;
+}
+
+#add-invoice #calculation #paid {
+  border: 2px dashed black;
+}
+
+#add-invoice #invoice-date {
+  padding-left: 35%;
+  font-family: 'Montserrat';
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#printin {
+  width: 100%;
+  height: 200px;
+  display: none;
+}
+
+#add-tax {
+  width: 100%;
+  position: absolute;
+  height: 120vh;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  display: none;
+}
+
+#add-tax section {
+  width: 390px;
+  height: 404px;
+  background: url(../images/add-tax.svg) no-repeat center center;
+  background-size: contain;
+  position: relative;
+  z-index: 20;
+  -webkit-animation: popon 1s infinite;
+          animation: popon 1s infinite;
+}
+
+#add-tax section h1 {
+  width: 100%;
+  padding: 34px 0px;
+  text-align: center;
+  font-family: 'montserrat';
+  font-weight: bolder;
+}
+
+#add-tax section form {
+  padding: 40px 49px;
+}
+
+#add-tax section form p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  padding: 2px;
+}
+
+#add-tax section form input[type=text], #add-tax section form input[type=number] {
+  width: 100%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  padding: 10px;
+  border: 1px solid #C4C4C4;
+  background-color: transparent;
+  border-radius: 10px;
+  text-align: center;
+  font-family: 'montserrat';
+  outline: none;
+}
+
+#add-tax section form div {
+  margin-bottom: 40px;
+}
+
+#add-tax section form input[type=button] {
+  width: 100%;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 10px;
+  border: none;
+  background-color: #F9B80A;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
+
+#calculation::-webkit-scrollbar {
+  width: 5px;
+}
+
+#calculation::-webkit-scrollbar-track {
+  width: 5px;
+  background-color: transparent;
+}
+
+#calculation::-webkit-scrollbar-thumb {
+  width: 5px;
+  background-color: #F9B80A;
+  border-radius: 10px;
+}
+
+#right::-webkit-scrollbar {
+  width: 8px;
+}
+
+#right::-webkit-scrollbar-track {
+  width: 8px;
+  background-color: transparent;
+}
+
+#right::-webkit-scrollbar-thumb {
+  width: 8px;
+  background-color: #F9B80A;
+  border-radius: 10px;
+}
+
+#option-menu {
+  position: absolute;
+  width: 50px;
+  right: -10px;
+  bottom: 0%;
+  height: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#option-menu ul {
+  display: inline-block;
+}
+
+#option-menu ul li {
+  border-radius: 10px;
+  width: 173px;
+  text-align: center;
+  position: relative;
+  -webkit-transform: rotate(-90deg) translate(-75%, 150%);
+          transform: rotate(-90deg) translate(-75%, 150%);
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
+  background-color: #323232;
+  padding: 12px 50px;
+  color: #F9B80A;
+  cursor: pointer;
+}
+
+#option-menu ul li:hover {
+  -webkit-transform: rotate(-90deg) translate(-75%, 140%);
+          transform: rotate(-90deg) translate(-75%, 140%);
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+#edit-company {
+  width: 100%;
+  position: absolute;
+  height: 120vh;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  display: none;
+}
+
+#edit-company #company-img {
+  z-index: 2;
+  opacity: 0;
+  height: 200px;
+  width: 100%;
+  cursor: pointer;
+}
+
+#edit-company #bio {
+  width: 100%;
+  font-style: normal;
+  font-weight: normal;
+  height: 70px;
+  font-size: 12px;
+  padding: 10px;
+  border: 1px solid #C4C4C4;
+  background-color: transparent;
+  border-radius: 10px;
+  font-family: 'montserrat';
+  outline: none;
+  margin-bottom: 30px;
+}
+
+#edit-company #upload2 {
+  -webkit-transform: translateY(30px);
+          transform: translateY(30px);
+}
+
+#edit-company section {
+  width: 95%;
+  height: 853px;
+  padding: 34px 75px;
+  background-color: white;
+  background-size: contain;
+  position: relative;
+  z-index: 20;
+  border-radius: 10px;
+  -webkit-animation: popon 1s infinite;
+          animation: popon 1s infinite;
+}
+
+#edit-company section h1 {
+  width: 100%;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  font-family: 'montserrat';
+  padding: 0;
+  margin: 0;
+}
+
+#edit-company section form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#edit-company section form h5 {
+  padding-bottom: 30px;
+}
+
+#edit-company section form h4 {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  background-color: #323232;
+  cursor: pointer;
+}
+
+#edit-company section form p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  padding: 2px;
+}
+
+#edit-company section form input[type=text], #edit-company section form input[type=number], #edit-company section form input[type=date] {
+  width: 100%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  padding: 10px;
+  border: 1px solid #C4C4C4;
+  background-color: transparent;
+  border-radius: 10px;
+  font-family: 'montserrat';
+  outline: none;
+  margin-bottom: 30px;
+}
+
+#edit-company section form #divider {
+  width: 46%;
+  padding: 51px 0px;
+  padding-right: 10px;
+}
+
+#edit-company section form #divider #heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 35px;
+}
+
+#edit-company section form #divider #heading h3 {
+  padding: 29px;
+}
+
+#edit-company section form #divider #heading h3 h6 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #1400FF;
+  cursor: pointer;
+}
+
+#edit-company section form #divider textarea {
+  width: 100%;
+  border: 1px solid #C4C4C4;
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  margin-bottom: 30px;
+}
+
+#edit-company section form #divider #fin-year {
+  margin-top: 135px;
+}
+
+#edit-company section form input[type=button] {
+  width: 40%;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 10px;
+  border: none;
+  background-color: #F9B80A;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+@-webkit-keyframes slide-up {
+  0% {
+    bottom: -500px;
+  }
+  70% {
+    bottom: 10px;
+  }
+  100% {
+    bottom: 0;
+  }
+}
+
+@keyframes slide-up {
+  0% {
+    bottom: -500px;
+  }
+  70% {
+    bottom: 10px;
+  }
+  100% {
+    bottom: 0;
+  }
+}
+
+@-webkit-keyframes slide-down {
+  0% {
+    bottom: 0px;
+  }
+  70% {
+    bottom: 10px;
+  }
+  100% {
+    bottom: -500px;
+  }
+}
+
+@keyframes slide-down {
+  0% {
+    bottom: 0px;
+  }
+  70% {
+    bottom: 10px;
+  }
+  100% {
+    bottom: -500px;
+  }
+}
+
+@-webkit-keyframes popout {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    display: block;
+  }
+  60% {
+    -webkit-transform: scale(1.04);
+            transform: scale(1.04);
+    opacity: 1;
+    display: block;
+  }
+  100% {
+    -webkit-transform: scale(0.6);
+            transform: scale(0.6);
+    opacity: 0.3;
+    display: none;
+  }
+}
+
+@keyframes popout {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    display: block;
+  }
+  60% {
+    -webkit-transform: scale(1.04);
+            transform: scale(1.04);
+    opacity: 1;
+    display: block;
+  }
+  100% {
+    -webkit-transform: scale(0.6);
+            transform: scale(0.6);
+    opacity: 0.3;
+    display: none;
+  }
+}
+
+@-webkit-keyframes popout2 {
+  0% {
+    bottom: 0;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  60% {
+    bottom: 0;
+    -webkit-transform: scale(1.04);
+            transform: scale(1.04);
+    opacity: 1;
+  }
+  100% {
+    bottom: 0;
+    -webkit-transform: scale(0.6);
+            transform: scale(0.6);
+    opacity: 0.3;
+  }
+}
+
+@keyframes popout2 {
+  0% {
+    bottom: 0;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  60% {
+    bottom: 0;
+    -webkit-transform: scale(1.04);
+            transform: scale(1.04);
+    opacity: 1;
+  }
+  100% {
+    bottom: 0;
+    -webkit-transform: scale(0.6);
+            transform: scale(0.6);
+    opacity: 0.3;
+  }
+}
+
+@-webkit-keyframes popon {
+  0% {
+    -webkit-transform: scale(0.6);
+            transform: scale(0.6);
+    opacity: 0.3;
+    display: none;
+  }
+  60% {
+    -webkit-transform: scale(1.04);
+            transform: scale(1.04);
+    opacity: 1;
+    display: block;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    display: block;
+  }
+}
+
+@keyframes popon {
+  0% {
+    -webkit-transform: scale(0.6);
+            transform: scale(0.6);
+    opacity: 0.3;
+    display: none;
+  }
+  60% {
+    -webkit-transform: scale(1.04);
+            transform: scale(1.04);
+    opacity: 1;
+    display: block;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    display: block;
+  }
+}
+
+@-webkit-keyframes popon2 {
+  0% {
+    bottom: 0;
+    -webkit-transform: scale(0.6);
+            transform: scale(0.6);
+    opacity: 0.3;
+    display: none;
+  }
+  60% {
+    bottom: 0;
+    -webkit-transform: scale(1.04);
+            transform: scale(1.04);
+    opacity: 1;
+    display: block;
+  }
+  100% {
+    bottom: 0;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    display: block;
+  }
+}
+
+@keyframes popon2 {
+  0% {
+    bottom: 0;
+    -webkit-transform: scale(0.6);
+            transform: scale(0.6);
+    opacity: 0.3;
+    display: none;
+  }
+  60% {
+    bottom: 0;
+    -webkit-transform: scale(1.04);
+            transform: scale(1.04);
+    opacity: 1;
+    display: block;
+  }
+  100% {
+    bottom: 0;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    display: block;
+  }
+}
+
+@-webkit-keyframes darpan_slide {
+  0% {
+    left: -300px;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+@keyframes darpan_slide {
+  0% {
+    left: -300px;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+@-webkit-keyframes darpan_slide_exit {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -300;
+  }
+}
+
+@keyframes darpan_slide_exit {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -300;
+  }
+}
+
+@media screen and (max-width: 1119px) {
+  #right ul li input {
+    width: 40vw !important;
+  }
+}
+
+@media screen and (max-width: 751px) and (min-width: 300px) {
+  #right {
+    padding: 0px !important;
+  }
+  #close {
+    display: block !important;
+    -webkit-transform: translateX(80px);
+            transform: translateX(80px);
+  }
+  #left {
+    position: absolute;
+    top: 0;
+    left: -300px;
+    z-index: 1000;
+    background-color: white;
+  }
+  #right ul li input {
+    width: 80% !important;
+    padding: 10px 50px !important;
+    float: right;
+  }
+  #menu-bar {
+    width: 30px !important;
+    height: 30px;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    padding: 2px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    cursor: pointer;
+  }
+  #menu-bar div {
+    width: 100%;
+    height: 2px;
+    background-color: black;
+  }
+  #right ul li img {
+    display: none;
+  }
+  #right ul li #nortification {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1413px) and (min-width: 1120px) {
+  #forms {
+    width: 80% !important;
+  }
+  #business-img {
+    -webkit-transform: translate(60%, -1%) !important;
+            transform: translate(60%, -1%) !important;
+  }
+}
+
+@media screen and (max-width: 1119px) and (min-width: 545px) {
+  #new-business {
+    padding: 0 !important;
+  }
+  #forms {
+    width: 100% !important;
+  }
+  #forms h2, #forms input[type=text] {
+    font-size: 18px !important;
+  }
+  #business-img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  #new-business {
+    padding: 0 !important;
+  }
+  #forms {
+    width: 100% !important;
+  }
+  #forms h2 {
+    padding-bottom: 50px !important;
+  }
+  #forms h2, #forms input[type=text], #forms input[type=button], #forms input[type=date], #forms select {
+    font-size: 15px !important;
+  }
+  #forms input[type=date], #forms select {
+    width: 45% !important;
+    font-size: 12px !important;
+  }
+  #forms input[type=button] {
+    width: 100% !important;
+    margin-bottom: 20px !important;
+  }
+  #details-form, #address-form, #company-form {
+    padding: 35px 22px !important;
+  }
+  #business-img {
+    display: none;
+  }
+  #form-background {
+    padding: 20px 20px !important;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  #new-business {
+    padding: 0 !important;
+  }
+  input[type=date], select {
+    width: 45% !important;
+    font-size: 12px !important;
+  }
+  input[type=button] {
+    width: 100% !important;
+    margin-bottom: 1px !important;
+  }
+}
+/*# sourceMappingURL=style_business.css.map */

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="shortcut icon" href="../favicon.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/sign.css">
+    <title>Sign</title>
+</head>
+<body>
+    <section>
+
+        <!--Signup form coding start-->
+
+        <aside id="left">
+            <img src="images/logo.png" alt="logo"><br>
+            <h1>Sign Up</h1>
+            <p>see your growth with specfico</p>
+            <div id="sign-google"><img src="images/google.svg" alt=""><a href="#">Sign up with google</a></div>
+            <fieldset><legend><a href="#">or signup with Email</a></legend></fieldset>
+            <p id="warning" style="color: red;"></p>
+            <form action="" autocomplete="off" onsubmit="return signup()">
+                <ul>
+                    <li>
+                        <label for="">Name<span>*</span></label><br>
+                        <input type="text" id="signup-name" placeholder="Name" required>
+                    </li>
+                    <li>
+                        <label for="">Email<span>*</span></label><br>
+                        <input type="email" onchange="signup_check()" id="signup-email" placeholder="Email" required>
+                    </li>
+                    <li>
+                        <label for="">Password<span>*</span></label><br>
+                        <input type="password" id="signup-password" placeholder="Password" required>
+                    </li>
+                    <li id="TnC">
+                        <input type="checkbox" class="checkbox" required>
+                        <label for="">I agree to<span> Terms and Conditions</span><span id="signup-success" style="color: rgb(0, 255, 0);"></span></label><br>
+                    </li>
+                    <li>
+                        <input type="submit" id="sign-up-btn" value="Sign Up">
+                    </li>
+                </ul>
+            </form>
+            <h6>Already have an account?<a href="#" id="sign-up-btn2">Login</a></h6>
+        </aside>
+
+        <!--Signup form coding end-->
+
+        <!--login form coding start-->
+
+        <aside id="right">
+            <img src="images/logo.png" id="logo" alt="logo"><br>
+            <h1>Login</h1>
+            <p>see your growth with specfico</p>
+            <div id="sign-google"><img src="images/google.svg" alt=""><a href="#">Sign in with google</a></div>
+            <fieldset><legend><a href="#">or signin with Email</a></legend></fieldset>
+            <p id="warning2" style="color: red;"></p>
+            <form action="" id="login-redirect" onsubmit="return login()" autocomplete="off">
+                <ul>
+                    <li>
+                        <label for="">Email<span>*</span></label><br>
+                        <input id="login-email" type="email" placeholder="Email" required>
+                    </li>
+                    <li>
+                        <label for="">Password<span>*</span></label><br>
+                        <input id="login-password" type="password" placeholder="Password" required>
+                    </li>
+                    <li id="TnC">
+                        <input type="checkbox" class="checkbox" required>
+                        <label for="">Remember me</label><a href="#"> Forget Password ?</a><br>
+                    </li>
+                    <li>
+                        <input type="submit" value="Login" >
+                    </li>
+                </ul>
+            </form>
+            <h6>Not registered yet ?<a href="#" id="login-btn">Create an account</a></h6>
+        </aside>
+
+        <!--login form coding start-->
+        <!--slider design coding start-->
+
+        <aside id="bg-img">
+            <div id="bg-design">
+                <h2>1000+ <span>contacts</span></h2>
+                <h2>100+ <span>playlists</span></h2>
+                <div id="first"><img src="images/user1.png" alt=""></div>
+                <div id="second"><img src="images/user2.png" alt=""></div>
+            </div>
+        </aside>
+
+        <!--slider design coding start-->
+
+    </section>
+
+    <!--Loading Effect start-->
+    <div class="loader-page">
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <!--Loading Effect end-->
+    <script src="js/sign.js"></script>
+</body>
+</html>
